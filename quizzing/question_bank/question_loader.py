@@ -22,20 +22,25 @@ class questionloader:
         Returns:
             list[dict]: A list of question dictionaries.
         """
-        if filepath.endswith(".json"):
-            with open(filepath, "r") as file:
-                questions = json.load(file)
-        elif filepath.endswith(".csv"):
-            with open(filepath, "r", encoding='ISO-8859–1') as file:
-                reader = csv.DictReader(file)
-                questions = [row for row in reader]
-        else:
-            raise ValueError("Unsupported file format. Use JSON or CSV.")
+        try:
+            if filepath.endswith(".json"):
+                with open(filepath, "r") as file:
+                    questions = json.load(file)
+            elif filepath.endswith(".csv"):
+                with open(filepath, "r", encoding='ISO-8859–1') as file:
+                    reader = csv.DictReader(file)
+                    questions = [row for row in reader]
+            else:
+                raise ValueError("Unsupported file format. Use JSON or CSV.")
 
-        for question in questions:
-            self.manager.add_question(question)
+            for question in questions:
+                self.manager.add_question(question)
 
-        return questions
+            return questions
+
+        except (json.JSONDecodeError, csv.Error) as e:
+            print('Error parsing JSON or CSV file.')
+
 
     def classify_questions_by_category(self, questions):
         """
@@ -102,11 +107,15 @@ class random_question(questionloader):
         Returns:
             list[dict]: A list of random questions.
         """
-        filtered = [
-            q for q in self.question_bank
-            if q.get("category") == category and q.get("difficulty") == difficulty
-        ]
+        try:
+            filtered = [
+                q for q in self.question_bank
+                if q.get("category") == category and q.get("difficulty") == difficulty
+            ]
 
-        if len(filtered) < number:
-            raise ValueError("Not enough questions available for the specified criteria.")
-        return sample(filtered, number)
+            if len(filtered) < number:
+                raise ValueError("Not enough questions available for the specified criteria.")
+            return sample(filtered, number)
+
+        except ValueError as e:
+            print(e)
