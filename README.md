@@ -2,6 +2,7 @@
 ### Author: Huan He, Qijia Zheng
 
 The quizzing Package is about creating, managing, and conducting interactive quizzes for users, divided into two sub-packages: question_bank and doquiz.
+![workflow](https://github.com/Raccoon-he/quizzing-step3/actions/workflows/main.yml/badge.svg)
 
 
 ### `question_bank` Sub-package
