@@ -18,14 +18,18 @@ class questionmanager:
             question (dict): A dictionary representing the question to add.
                              Must contain a unique "id" key.
         """
-        question_id = int(question.get('id'))
-        if not question_id:
-            raise ValueError("Question must have a unique 'id' key.")
-        for filter_question in self.question_bank:
-            if int(filter_question['id']) == question_id:
-                raise ValueError(f"Question with id {question_id} already exists.")
+        try:
+            question_id = int(question.get('id'))
+            if not question_id:
+                raise ValueError("Question must have a unique 'id' key.")
+            for filter_question in self.question_bank:
+                if int(filter_question['id']) == question_id:
+                    raise ValueError(f"Question with id {question_id} already exists.")
 
-        self.question_bank.append(question)
+            self.question_bank.append(question)
+
+        except ValueError as e:
+            print(e)
 
     def remove_question(self, question_id):
         """
@@ -34,14 +38,18 @@ class questionmanager:
         Parameters:
             question_id (str or int): The ID of the question to be removed.
         """
-        flag = 0
-        for question in self.question_bank:
-            if int(question['id']) == question_id:
-                self.question_bank.remove(question)
-                flag = 1
+        try:
+            question_id = int(question_id)
 
-        if flag == 0:
+            for question in self.question_bank:
+                if int(question['id']) == question_id:
+                    self.question_bank.remove(question)
+                    return
+
             raise ValueError(f"Question with id {question_id} does not exist.")
+
+        except ValueError as e:
+            print(e)
 
     def update_question(self, question_id, updated_data):
         """
@@ -51,14 +59,18 @@ class questionmanager:
             question_id (str or int): The ID of the question to update.
             updated_data (dict): A dictionary containing the updated question information.
         """
-        flag = 0
-        for question in self.question_bank:
-            if int(question['id']) == question_id:
-                question.update(updated_data)
-                flag = 1
+        try:
+            question_id = int(question_id)
 
-        if flag == 0:
+            for question in self.question_bank:
+                if int(question['id']) == question_id:
+                    question.update(updated_data)
+                    return
+
             raise ValueError(f"Question with id {question_id} does not exist.")
+
+        except ValueError as e:
+            print(e)
 
     def get_question_by_id(self, question_id):
         """
@@ -70,13 +82,17 @@ class questionmanager:
         Returns:
             dict or None: The question matching the ID or None if not found.
         """
-        flag = 0
-        for question in self.question_bank:
-            if int(question['id']) == int(question_id):
-                flag = 1
-                return question
-        if flag == 0:
+        try:
+            question_id = int(question_id)
+
+            for question in self.question_bank:
+                if int(question['id']) == int(question_id):
+                    return question
+
             raise ValueError(f"Question with id {question_id} does not exist.")
+
+        except ValueError as e:
+            print(e)
 
     def list_all_questions(self):
         """
