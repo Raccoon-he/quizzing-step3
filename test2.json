@@ -1,0 +1,170 @@
+[
+    {
+        "id": "1",
+        "text": "What is the chemical formula for table salt? A) NaCl B) H2O C) CO2 D) CaCO3",
+        "answer": "A",
+        "difficulty": "medium",
+        "category": "science"
+    },
+    {
+        "id": "2",
+        "text": "What is the capital of South Africa? A) Cape Town B) Johannesburg C) Pretoria D) All are capitals",
+        "answer": "D",
+        "difficulty": "hard",
+        "category": "geography"
+    },
+    {
+        "id": "3",
+        "text": "What is the sum of angles in a triangle? A) 90\u00a1 B) 180\u00a1 C) 270\u00a1 D) 360\u00a1",
+        "answer": "B",
+        "difficulty": "easy",
+        "category": "mathematics"
+    },
+    {
+        "id": "4",
+        "text": "What does CPU stand for? A) Central Processing Unit B) Computer Personal Unit C) Central Program Utility D) Computer Processing Unit",
+        "answer": "A",
+        "difficulty": "easy",
+        "category": "technology"
+    },
+    {
+        "id": "5",
+        "text": "When was the Great Wall of China completed? A) 206 BC B) 1 AD C) 1368 AD D) 1644 AD",
+        "answer": "D",
+        "difficulty": "hard",
+        "category": "history"
+    },
+    {
+        "id": "6",
+        "text": "What is the atomic number of hydrogen? A) 0 B) 1 C) 2 D) 3",
+        "answer": "B",
+        "difficulty": "easy",
+        "category": "science"
+    },
+    {
+        "id": "7",
+        "text": "What is the capital of Canada? A) Toronto B) Vancouver C) Montreal D) Ottawa",
+        "answer": "D",
+        "difficulty": "medium",
+        "category": "geography"
+    },
+    {
+        "id": "8",
+        "text": "What is 15% of 200? A) 25 B) 30 C) 35 D) 40",
+        "answer": "B",
+        "difficulty": "medium",
+        "category": "mathematics"
+    },
+    {
+        "id": "9",
+        "text": "Who invented the World Wide Web? A) Tim Berners-Lee B) Steve Jobs C) Bill Gates D) Larry Page",
+        "answer": "A",
+        "difficulty": "medium",
+        "category": "technology"
+    },
+    {
+        "id": "10",
+        "text": "When did the American Civil War end? A) 1863 B) 1864 C) 1865 D) 1866",
+        "answer": "C",
+        "difficulty": "medium",
+        "category": "history"
+    },
+    {
+        "id": "11",
+        "text": "What is the most abundant gas in Earth's atmosphere? A) Oxygen B) Carbon Dioxide C) Nitrogen D) Hydrogen",
+        "answer": "C",
+        "difficulty": "medium",
+        "category": "science"
+    },
+    {
+        "id": "12",
+        "text": "What is the capital of Mexico? A) Mexico City B) Guadalajara C) Monterrey D) Canc\u009cn",
+        "answer": "A",
+        "difficulty": "easy",
+        "category": "geography"
+    },
+    {
+        "id": "13",
+        "text": "What is the area of a square with side length 5? A) 20 B) 25 C) 30 D) 35",
+        "answer": "B",
+        "difficulty": "easy",
+        "category": "mathematics"
+    },
+    {
+        "id": "14",
+        "text": "Which programming language is known for web development? A) Python B) Java C) JavaScript D) C++",
+        "answer": "C",
+        "difficulty": "medium",
+        "category": "technology"
+    },
+    {
+        "id": "15",
+        "text": "When did the French Revolution begin? A) 1787 B) 1788 C) 1789 D) 1790",
+        "answer": "C",
+        "difficulty": "medium",
+        "category": "history"
+    },
+    {
+        "id": "16",
+        "text": "What is the speed of sound in air? A) 343 m/s B) 443 m/s C) 543 m/s D) 643 m/s",
+        "answer": "A",
+        "difficulty": "medium",
+        "category": "science"
+    },
+    {
+        "id": "17",
+        "text": "What is the capital of Egypt? A) Cairo B) Alexandria C) Giza D) Luxor",
+        "answer": "A",
+        "difficulty": "easy",
+        "category": "geography"
+    },
+    {
+        "id": "18",
+        "text": "What is the square root of 169? A) 11 B) 12 C) 13 D) 14",
+        "answer": "C",
+        "difficulty": "medium",
+        "category": "mathematics"
+    },
+    {
+        "id": "19",
+        "text": "What does HTML stand for? A) Hyper Text Markup Language B) High Tech Modern Language C) Hyper Transfer Markup Language D) High Text Making Language",
+        "answer": "A",
+        "difficulty": "easy",
+        "category": "technology"
+    },
+    {
+        "id": "20",
+        "text": "When did the Roman Empire fall? A) 376 AD B) 476 AD C) 576 AD D) 676 AD",
+        "answer": "B",
+        "difficulty": "medium",
+        "category": "history"
+    },
+    {
+        "id": "21",
+        "text": "What is the boiling point of water? A) 90\u00a1C B) 95\u00a1C C) 100\u00a1C D) 105\u00a1C",
+        "answer": "C",
+        "difficulty": "easy",
+        "category": "science"
+    },
+    {
+        "id": "22",
+        "text": "What is the capital of Russia? A) St. Petersburg B) Moscow C) Kiev D) Minsk",
+        "answer": "B",
+        "difficulty": "easy",
+        "category": "geography"
+    },
+    {
+        "id": "23",
+        "text": "What is 3^2 + 4^2? A) 20 B) 25 C) 30 D) 35",
+        "answer": "B",
+        "difficulty": "medium",
+        "category": "mathematics"
+    },
+    {
+        "id": "24",
+        "text": "Which company owns Android? A) Apple B) Microsoft C) Google D) Samsung",
+        "answer": "C",
+        "difficulty": "easy",
+        "category": "technology"
+    }
+]

@@ -1,0 +1,51 @@
+id,text,answer,difficulty,category
+1,What is the capital of France? A) Paris B) London C) Madrid D) Berlin,A,easy,geography
+2,What chemical element has the symbol Au? A) Gold B) Silver C) Iron D) Copper,A,easy,science
+3,What is the square root of 144? A) 10 B) 12 C) 14 D) 16,B,medium,mathematics
+4,In which year did World War II end? A) 1943 B) 1944 C) 1945 D) 1946,C,medium,history
+5,Which programming language was created by James Gosling? A) Python B) Java C) C++ D) JavaScript,B,medium,technology
+6,"What is the speed of light in vacuum? A) 299,792,458 m/s B) 300,000,000 m/s C) 299,000,000 m/s D) 298,792,458 m/s",A,hard,science
+7,What is the capital of Australia? A) Sydney B) Melbourne C) Canberra D) Perth,C,medium,geography
+8,What is the value of Pi (rounded to 2 decimals)? A) 3.13 B) 3.14 C) 3.15 D) 3.16,B,medium,mathematics
+9,What year was America's Declaration of Independence signed? A) 1774 B) 1775 C) 1776 D) 1777,C,medium,history
+10,Which of these is an interpreted programming language? A) C++ B) Java C) Python D) Assembly,C,medium,technology
+11,What is the largest planet in our solar system? A) Mars B) Saturn C) Jupiter D) Neptune,C,easy,science
+12,What is the capital of Japan? A) Seoul B) Tokyo C) Beijing D) Shanghai,B,easy,geography
+13,What is 25% of 80? A) 15 B) 20 C) 25 D) 30,B,easy,mathematics
+14,Who founded Microsoft? A) Steve Jobs B) Bill Gates C) Mark Zuckerberg D) Larry Page,B,easy,technology
+15,In which year did Christopher Columbus first reach the Americas? A) 1490 B) 1492 C) 1494 D) 1496,B,medium,history
+16,What is the chemical symbol for oxygen? A) O B) O2 C) Os D) Ox,A,easy,science
+17,What is the capital of Brazil? A) Rio de Janeiro B) S‹o Paulo C) Brasilia D) Salvador,C,medium,geography
+18,What is the square root of 225? A) 12 B) 13 C) 14 D) 15,D,medium,mathematics
+19,Who invented the telephone? A) Thomas Edison B) Alexander Graham Bell C) Nikola Tesla D) James Watt,B,medium,technology
+20,When did World War I begin? A) 1913 B) 1914 C) 1915 D) 1916,B,medium,history
+21,What is the atomic number of carbon? A) 4 B) 5 C) 6 D) 7,C,medium,science
+22,What is the capital of China? A) Shanghai B) Beijing C) Hong Kong D) Guangzhou,B,easy,geography
+23,What is the result of 7 * 8? A) 54 B) 56 C) 58 D) 60,B,easy,mathematics
+24,Which company created the iPhone? A) Microsoft B) Google C) Samsung D) Apple,D,easy,technology
+25,In which year did the Russian Revolution occur? A) 1915 B) 1916 C) 1917 D) 1918,C,medium,history
+26,What is the chemical formula for table salt? A) NaCl B) H2O C) CO2 D) CaCO3,A,medium,science
+27,What is the capital of South Africa? A) Cape Town B) Johannesburg C) Pretoria D) All are capitals,D,hard,geography
+28,What is the sum of angles in a triangle? A) 90¡ B) 180¡ C) 270¡ D) 360¡,B,easy,mathematics
+29,What does CPU stand for? A) Central Processing Unit B) Computer Personal Unit C) Central Program Utility D) Computer Processing Unit,A,easy,technology
+30,When was the Great Wall of China completed? A) 206 BC B) 1 AD C) 1368 AD D) 1644 AD,D,hard,history
+31,What is the atomic number of hydrogen? A) 0 B) 1 C) 2 D) 3,B,easy,science
+32,What is the capital of Canada? A) Toronto B) Vancouver C) Montreal D) Ottawa,D,medium,geography
+33,What is 15% of 200? A) 25 B) 30 C) 35 D) 40,B,medium,mathematics
+34,Who invented the World Wide Web? A) Tim Berners-Lee B) Steve Jobs C) Bill Gates D) Larry Page,A,medium,technology
+35,When did the American Civil War end? A) 1863 B) 1864 C) 1865 D) 1866,C,medium,history
+36,What is the most abundant gas in Earth's atmosphere? A) Oxygen B) Carbon Dioxide C) Nitrogen D) Hydrogen,C,medium,science
+37,What is the capital of Mexico? A) Mexico City B) Guadalajara C) Monterrey D) Cancœn,A,easy,geography
+38,What is the area of a square with side length 5? A) 20 B) 25 C) 30 D) 35,B,easy,mathematics
+39,Which programming language is known for web development? A) Python B) Java C) JavaScript D) C++,C,medium,technology
+40,When did the French Revolution begin? A) 1787 B) 1788 C) 1789 D) 1790,C,medium,history
+41,What is the speed of sound in air? A) 343 m/s B) 443 m/s C) 543 m/s D) 643 m/s,A,medium,science
+42,What is the capital of Egypt? A) Cairo B) Alexandria C) Giza D) Luxor,A,easy,geography
+43,What is the square root of 169? A) 11 B) 12 C) 13 D) 14,C,medium,mathematics
+44,What does HTML stand for? A) Hyper Text Markup Language B) High Tech Modern Language C) Hyper Transfer Markup Language D) High Text Making Language,A,easy,technology
+45,When did the Roman Empire fall? A) 376 AD B) 476 AD C) 576 AD D) 676 AD,B,medium,history
+46,What is the boiling point of water? A) 90¡C B) 95¡C C) 100¡C D) 105¡C,C,easy,science
+47,What is the capital of Russia? A) St. Petersburg B) Moscow C) Kiev D) Minsk,B,easy,geography
+48,What is 3^2 + 4^2? A) 20 B) 25 C) 30 D) 35,B,medium,mathematics
+49,Which company owns Android? A) Apple B) Microsoft C) Google D) Samsung,C,easy,technology
+50,When was the United Nations founded? A) 1943 B) 1944 C) 1945 D) 1946,C,medium,history

@@ -1,0 +1,26 @@
+id,text,answer,difficulty,category
+1,What is the capital of France? A) Paris B) London C) Madrid D) Berlin,A,easy,geography
+2,What chemical element has the symbol Au? A) Gold B) Silver C) Iron D) Copper,A,easy,science
+3,What is the square root of 144? A) 10 B) 12 C) 14 D) 16,B,medium,mathematics
+4,In which year did World War II end? A) 1943 B) 1944 C) 1945 D) 1946,C,medium,history
+5,Which programming language was created by James Gosling? A) Python B) Java C) C++ D) JavaScript,B,medium,technology
+6,"What is the speed of light in vacuum? A) 299,792,458 m/s B) 300,000,000 m/s C) 299,000,000 m/s D) 298,792,458 m/s",A,hard,science
+7,What is the capital of Australia? A) Sydney B) Melbourne C) Canberra D) Perth,C,medium,geography
+8,What is the value of Pi (rounded to 2 decimals)? A) 3.13 B) 3.14 C) 3.15 D) 3.16,B,medium,mathematics
+9,What year was America's Declaration of Independence signed? A) 1774 B) 1775 C) 1776 D) 1777,C,medium,history
+10,Which of these is an interpreted programming language? A) C++ B) Java C) Python D) Assembly,C,medium,technology
+11,What is the largest planet in our solar system? A) Mars B) Saturn C) Jupiter D) Neptune,C,easy,science
+12,What is the capital of Japan? A) Seoul B) Tokyo C) Beijing D) Shanghai,B,easy,geography
+13,What is 25% of 80? A) 15 B) 20 C) 25 D) 30,B,easy,mathematics
+14,Who founded Microsoft? A) Steve Jobs B) Bill Gates C) Mark Zuckerberg D) Larry Page,B,easy,technology
+15,In which year did Christopher Columbus first reach the Americas? A) 1490 B) 1492 C) 1494 D) 1496,B,medium,history
+16,What is the chemical symbol for oxygen? A) O B) O2 C) Os D) Ox,A,easy,science
+17,What is the capital of Brazil? A) Rio de Janeiro B) S‹o Paulo C) Brasilia D) Salvador,C,medium,geography
+18,What is the square root of 225? A) 12 B) 13 C) 14 D) 15,D,medium,mathematics
+19,Who invented the telephone? A) Thomas Edison B) Alexander Graham Bell C) Nikola Tesla D) James Watt,B,medium,technology
+20,When did World War I begin? A) 1913 B) 1914 C) 1915 D) 1916,B,medium,history
+21,What is the atomic number of carbon? A) 4 B) 5 C) 6 D) 7,C,medium,science
+22,What is the capital of China? A) Shanghai B) Beijing C) Hong Kong D) Guangzhou,B,easy,geography
+23,What is the result of 7 * 8? A) 54 B) 56 C) 58 D) 60,B,easy,mathematics
+24,Which company created the iPhone? A) Microsoft B) Google C) Samsung D) Apple,D,easy,technology
+25,In which year did the Russian Revolution occur? A) 1915 B) 1916 C) 1917 D) 1918,C,medium,history
