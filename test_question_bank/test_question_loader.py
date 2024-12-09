@@ -1,5 +1,4 @@
 import unittest
-from types import NoneType
 
 from quizzing.question_bank.question_loader import questionloader, random_question
 from quizzing.question_bank.question_manager import questionmanager
