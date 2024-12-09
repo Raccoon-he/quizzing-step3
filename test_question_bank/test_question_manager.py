@@ -107,6 +107,6 @@ class TestQuestionManager(unittest.TestCase):
         self.assertEqual(self.manager.get_question_by_id(23)['answer'], 'B')
         self.assertEqual(self.manager.get_question_by_id(24)['difficulty'], 'easy')
         self.assertEqual(len(self.manager.list_all_questions()), 5)
-        self.assertEqual(type(self.manager.get_question_by_id(25)), NoneType)
+        self.assertEqual(self.manager.get_question_by_id(25), None)
 
 

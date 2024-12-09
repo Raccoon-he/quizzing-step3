@@ -45,6 +45,6 @@ class TestQuestionLoader(unittest.TestCase):
         self.assertEqual(len(rd.get_random_questions(category='geography', difficulty='easy', number=1)),1)
         self.assertEqual(len(rd.get_random_questions(category='geography', difficulty='medium', number=2)), 2)
         self.assertEqual(len(rd.get_random_questions(category='science', difficulty='easy', number=1)), 1)
-        self.assertEqual(type(rd.get_random_questions(category='science', difficulty='easy', number=100)),NoneType)
+        self.assertEqual(rd.get_random_questions(category='science', difficulty='easy', number=100),None)
 
 
