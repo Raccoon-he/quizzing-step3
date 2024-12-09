@@ -1,4 +1,6 @@
 import unittest
+from types import NoneType
+
 from quizzing.question_bank.question_loader import questionloader, random_question
 from quizzing.question_bank.question_manager import questionmanager
 
@@ -43,7 +45,6 @@ class TestQuestionLoader(unittest.TestCase):
         self.assertEqual(len(rd.get_random_questions(category='geography', difficulty='easy', number=1)),1)
         self.assertEqual(len(rd.get_random_questions(category='geography', difficulty='medium', number=2)), 2)
         self.assertEqual(len(rd.get_random_questions(category='science', difficulty='easy', number=1)), 1)
-        with self.assertRaises(ValueError):
-            rd.get_random_questions(category='science', difficulty='easy', number=10)
+        self.assertEqual(type(rd.get_random_questions(category='science', difficulty='easy', number=100)),NoneType)
 
 
