@@ -4,6 +4,9 @@
 The quizzing Package is about creating, managing, and conducting interactive quizzes for users, divided into two sub-packages: question_bank and doquiz.
 [![Build Status](https://app.travis-ci.com/Raccoon-he/quizzing-step3.svg?token=5JNBS28ypyizgLzVxcpv&branch=main)](https://app.travis-ci.com/Raccoon-he/quizzing-step3)
 
+Pypi Link: https://pypi.org/project/quizzing/0.0.1/
+Download: pip install quizzing==0.0.1
+
 
 ### `question_bank` Sub-package
 ---
